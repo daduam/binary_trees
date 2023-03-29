@@ -51,6 +51,8 @@ int binary_tree_is_bst(const binary_tree_t *tree);
 
 typedef struct binary_tree_s bst_t;
 
+bst_t *bst_insert(bst_t **tree, int value);
+
 typedef struct binary_tree_s avl_t;
 
 typedef struct binary_tree_s heap_t;
